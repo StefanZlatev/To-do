@@ -54,7 +54,7 @@ return [
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ],
         'template_path_stack' => [
-            __DIR__ . '/../view',
+           'tasks' => __DIR__ . '/../view',
         ],
     ],
 ];

@@ -10,24 +10,38 @@ class Module implements ConfigProviderInterface
 {
     public function getConfig()
     {
-        return include __DIR__ . '/../config/module.config.php';
+        return include '../config/module.config.php';
     }
 
     public function getServiceConfig()
     {
         return [
             'factories' => [
-                Model\AlbumTable::class => function($container) {
-                    $tableGateway = $container->get(Model\AlbumTableGateway::class);
-                    return new Model\AlbumTable($tableGateway);
+                Model\TasksTable::class => function($container) {
+                    $tableGateway = $container->get(Model\TasksTableGateway::class);
+                    return new Model\TasksTable($tableGateway);
                 },
-                Model\AlbumTableGateway::class => function ($container) {
+                Model\TasksTableGateway::class => function ($container) {
                     $dbAdapter = $container->get(AdapterInterface::class);
                     $resultSetPrototype = new ResultSet();
-                    $resultSetPrototype->setArrayObjectPrototype(new Model\Album());
+                    $resultSetPrototype->setArrayObjectPrototype(new Model\Tasks());
                     return new TableGateway('album', $dbAdapter, null, $resultSetPrototype);
                 },
             ],
         ];
     }
+
+    public function getControllerConfig()
+    {
+        return [
+            'factories' => [
+                Controller\TasksController::class => function($container) {
+                    return new Controller\TasksController(
+                        $container->get(Model\TasksTable::class)
+                    );
+                },
+            ],
+        ];
+    }
+
 }
