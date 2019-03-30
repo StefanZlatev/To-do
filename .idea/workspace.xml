@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faefba43-f28c-41cd-935a-3ec65d3d3307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/Tasks/src/Controller/TasksController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/src/Model/Tasks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/src/Model/TasksTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/view/tasks/tasks/add.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/view/tasks/tasks/delete.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/view/tasks/tasks/edit.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Tasks/view/tasks/tasks/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="faefba43-f28c-41cd-935a-3ec65d3d3307" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/modules.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#6#278#0#PHP" expanded="true" />
               </folding>
@@ -59,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-modulemanager/src/ModuleManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="201" column="34" lean-forward="true" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+            <state relative-caret-position="357">
+              <caret line="203" column="32" lean-forward="true" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -151,7 +141,6 @@
         <option value="$PROJECT_DIR$/vendor/zendframework/zend-view/src/Helper/HeadLink.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/modules.config.php" />
         <option value="$PROJECT_DIR$/module/Tasks/src/Model/Tasks.php" />
         <option value="$PROJECT_DIR$/module/Tasks/src/Model/TasksTable.php" />
         <option value="$PROJECT_DIR$/module/Tasks/src/Module.php" />
@@ -160,6 +149,7 @@
         <option value="$PROJECT_DIR$/module/Tasks/view/tasks/tasks/index.phtml" />
         <option value="$PROJECT_DIR$/module/Tasks/src/Controller/TasksController.php" />
         <option value="$PROJECT_DIR$/vendor/zendframework/zend-modulemanager/src/ModuleManager.php" />
+        <option value="$PROJECT_DIR$/config/modules.config.php" />
       </list>
     </option>
   </component>
@@ -284,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="161" />
     <option name="y" value="36" />
     <option name="width" value="1750" />
@@ -368,6 +358,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -397,12 +388,12 @@
       <workItem from="1553868112160" duration="3966000" />
       <workItem from="1553874383347" duration="1952000" />
       <workItem from="1553878642099" duration="6133000" />
-      <workItem from="1553947698373" duration="6240000" />
+      <workItem from="1553947698373" duration="6887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18820000" />
+    <option name="totallyTimeSpent" value="19467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="29" width="1400" height="776" extended-state="0" />
@@ -604,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/modules.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#6#278#0#PHP" expanded="true" />
           </folding>
@@ -621,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-modulemanager/src/ModuleManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="201" column="34" lean-forward="true" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+        <state relative-caret-position="357">
+          <caret line="203" column="32" lean-forward="true" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="32" />
         </state>
       </provider>
     </entry>
